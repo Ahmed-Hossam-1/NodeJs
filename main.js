@@ -1,4 +1,4 @@
-const fs = require("node:fs");
+// const fs = require("node:fs");
 
 // read
 
@@ -59,5 +59,4 @@ const fs = require("node:fs");
 //   // wStream.write("\n =========== chunk ============ \n");
 //   // wStream.write(chunk);
 // });
-
-const _ = require("lodash");
+console.log("first");
