@@ -36,10 +36,28 @@ const fs = require("node:fs");
 // );
 
 // delete
-fs.unlink("./Files/users.json", (err) => {
-  if (err) {
-    console.log(err);
-  } else {
-    console.log("Done");
-  }
-});
+
+// fs.unlink("./Files/users.json", (err) => {
+//   if (err) {
+//     console.log(err);
+//   } else {
+//     console.log("Done");
+//   }
+// });
+
+// console.log(Buffer.from("a").toJSON()); // decimal number
+// console.log(Buffer.from("a")); // hex number
+
+//////////////////     streams     ////////////////////////
+// [readable , writeable]
+
+// const rStream = fs.createReadStream("./Files/test.txt", "utf-8");
+// const wStream = fs.createWriteStream("./Files/test.txt", "utf-8");
+
+// rStream.on("data", (chunk) => {
+//   console.log(chunk);
+//   // wStream.write("\n =========== chunk ============ \n");
+//   // wStream.write(chunk);
+// });
+
+const _ = require("lodash");
