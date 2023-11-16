@@ -19,8 +19,8 @@
 
 // console.log(require.cache);
 
-import { log } from "./logger.mjs";
+// import { log } from "./logger.mjs";
 
-log();
+// log();
 
-console.log(log());
+// console.log(log());
