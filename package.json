@@ -7,6 +7,7 @@
   "scripts": {
     "run:dev": "nodemon main.js"
   },
+  "bin": "./APP_CLI/index.js",
   "author": "",
   "license": "ISC",
   "dependencies": {
